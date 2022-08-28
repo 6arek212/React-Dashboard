@@ -1,0 +1,47 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 90vh;
+    height: auto;
+}
+
+
+.content .side-bar {
+    flex: 1;
+    background: #2b353e;
+    min-height: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .side-bar a {
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    transition: all ease-in 150ms;
+}
+
+.content .side-bar a:hover{
+    background-color: #cecece;
+    color: #000;
+}
+
+
+.content .views {
+    flex: 4;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 50%;
+    background: #f2f2f2;
+    min-height: 100%;
+}

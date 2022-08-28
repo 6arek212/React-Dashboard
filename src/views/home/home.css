@@ -1,0 +1,39 @@
+.home h1 {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 2rem;
+}
+
+.home .top{
+    display: flex;
+    flex-direction: row;
+}
+
+.home .card-container{
+    flex: 1;
+    margin: 10px;
+}
+
+.home .current-customer{
+    height: 100px;
+}
+
+.home .next-customer{
+    height: 100px;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.home .appointments-list-container {
+    margin-top: 2rem;
+}
+
+.home .appointments-list {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
